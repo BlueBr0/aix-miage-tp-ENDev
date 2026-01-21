@@ -31,7 +31,7 @@ Int => valeur
 
 
 
-Le constructeur de GestionException prend en paramètre in int qui sera associé à la propriété valeur.
+Le constructeur de GestionException prend en paramètre un int qui sera associé à la propriété valeur.
 
 
 
