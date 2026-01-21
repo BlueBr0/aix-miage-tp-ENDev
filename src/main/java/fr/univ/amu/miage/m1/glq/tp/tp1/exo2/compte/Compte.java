@@ -23,6 +23,6 @@ public class Compte extends CompteAnonyme {
 	}
 	
 	@Override protected String finToString() {
-		return( ", titulaire : " + getTitulaire()	+ super.finToString());
+		return", titulaire : " + getTitulaire()	+ super.finToString();
 	}
 }

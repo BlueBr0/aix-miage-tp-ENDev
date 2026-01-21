@@ -17,8 +17,7 @@ public class ComptePlacement extends CompteRemunere {
 	}
 	
 	@Override public boolean depot( double montant) {
-		afficheTexteErreur( "Depot impossible");
-		return false;
+		throw new UnsupportedOperationException("Action impossible");
 	}
 	
 }

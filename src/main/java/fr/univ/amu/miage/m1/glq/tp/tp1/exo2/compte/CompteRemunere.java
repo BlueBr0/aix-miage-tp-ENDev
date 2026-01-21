@@ -31,8 +31,8 @@ public class CompteRemunere extends Compte {
 	}
 	
 	private void maj() {
-		double nouveauSolde = super.getSolde() * ( taux * 
-				((double)(dateEnNombreDeJours - dateDeDerniereMAJEnNombreDeJours) / 365) );
+		double nouveauSolde = super.getSolde() * taux *
+				((double)(dateEnNombreDeJours - dateDeDerniereMAJEnNombreDeJours) / 365);
 		if ( nouveauSolde != 0 ) super.depot(nouveauSolde);
 		dateDeDerniereMAJEnNombreDeJours = dateEnNombreDeJours;
 	}
